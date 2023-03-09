@@ -4,7 +4,7 @@
 This is simple my road of learning Python. Nothing interesting for someone that already know Python.\
 However, if you are interested in my way of learning Python you can browse this repository.\
 All the solutions to the tasks were conceived and written by me.\
-I avoid rewriting the solutions.\
+I avoid rewriting the solutions.
 
 Day 001 - Variables; Project that generate the name of the Band\
 Day 002 - Data types; Project that calculate tips and due payment\
