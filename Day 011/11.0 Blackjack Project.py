@@ -47,7 +47,6 @@ while game:
                 print(f"You went over. You lose.")
                 game_round = False
         elif decision == "n":
-            y
             while sum_values(dealer_hand) < 16:
                 draw_card(dealer_hand)
             show_player_hand(player_hand)
