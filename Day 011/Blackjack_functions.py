@@ -3,7 +3,7 @@ import random
 from Blackjack_arts import *
 
 cards = {
-    "Ace": [card_art["Ace"], 1],
+    "Ace": [card_art["Ace"], 11],
     "2": [card_art["2"], 2],
     "3": [card_art["3"], 3],
     "4": [card_art["4"], 4],
@@ -37,7 +37,9 @@ def sum_values(hand):
     """Sums up the value of the cards in hand"""
     summary = 0
     for card in hand:
-        if card == "Ace" and summary+11 <= 21:
+        if card == "Ace" and summary+11 > 21:
+            cards["Ace"][1] = 1
+        elif card == "Ace" and summary+11 < 21:
             cards["Ace"][1] = 11
         summary += cards[card][1]
     return summary
