@@ -16,4 +16,6 @@ Day 007 - The Hangman project; A simple game of guessing the letters in a word\
 Day 008 - Caesar Cipher project; A program that encodes typed words according to the assumptions of the Caesar Cipher\
 Day 009 - Secret Auction project; The program used to play a secret auction, allows you to bid between any number of people\
 Day 010 - Calculator project; A simple calculator that allows you to add, subtract, multiply and divide\
-Day 011 - Blackjack project; A simple program that allows you to play a simplified version of blackjack
+Day 011 - Blackjack project; A simple program that allows you to play a simplified version of blackjack\
+Day 012 - Number Guessing project; A game in which you have to guess a number between 1 and 100\
+Day 013 - Debugging; Performs some small debugging exercises
