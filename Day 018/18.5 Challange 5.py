@@ -16,11 +16,11 @@ def random_color():
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
-    return tom.color(r, g, b)
+    return (r, g, b)
 
 
 while True:
-    random_color()
+    tom.color(random_color())
     tom.fd(20)
     tom.setheading(random.choice(directions))
 
