@@ -7,3 +7,6 @@ LEFT = 180
 DOWN = 270
 DIRECTION_LIST = [RIGHT, UP, LEFT, DOWN]
 
+# SCOREBOARD
+ALIGN = "center"
+FONT = ("Courier", 20, "bold")
