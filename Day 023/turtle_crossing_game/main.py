@@ -28,9 +28,9 @@ while game_is_on:
     screen.update()
 
 # DETECTS NEXT LEVEL
-    if player.ycor() >= 260:
+    if player.ycor() >= FINISH_LINE_Y:
         score.add_score()
-        STARTING_MOVE_DISTANCE += MOVE_INCREMENT
+        manager.level_up()
         player.goto(STARTING_POSITION)
 
 # DETECT COLLISION WITH CARS
