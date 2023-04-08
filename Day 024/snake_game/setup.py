@@ -1,0 +1,12 @@
+TIMER = 0.1
+MOVE_DISTANCE = 20
+
+RIGHT = 0
+UP = 90
+LEFT = 180
+DOWN = 270
+DIRECTION_LIST = [RIGHT, UP, LEFT, DOWN]
+
+# SCOREBOARD
+ALIGN = "center"
+FONT = ("Courier", 20, "bold")
