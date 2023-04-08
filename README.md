@@ -21,4 +21,5 @@ Day 012 - Number Guessing project; A game in which you have to guess a number be
 Day 013 - Debugging; Performs some small debugging exercises\
 Day 014 - Higher Lower Game; A game when you need to guess who has more followers on Instagram!\
 Day 015 - Coffee Machine project; A program that imitates the workings of a coffee machine. It accepts coins, dispenses coffee and checks supplies of water, milk and coffee.\
-Day 016 - Introduce OOP; Introduction to Object Oriented Programming. Reworking yesterday's project using Object Oriented Programming.
+Day 016 - Introduce OOP; Introduction to Object Oriented Programming. Reworking yesterday's project using Object Oriented Programming.\
+Day 017 - Quiz project; Making Quiz game with Object Oriented Programing.
