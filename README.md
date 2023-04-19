@@ -26,3 +26,4 @@ Day 017 - Quiz project; Making Quiz game with Object Oriented Programing.\
 Day 018 - Turtle Module; First approach to Turtle Module. Performs simple exercises and gets familiar with the Turtle Module library. \
 Day 019 - Turtle Module; Performs simple tasks by learning Turtle Module and OOP. \
 Day 020/021 - Snake Game project; I created a Snake game using Turtle Module and OOP.
+Day 022 - Pong Game project; I created a Pong game using Turtle Module and OOP.
