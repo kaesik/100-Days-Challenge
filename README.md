@@ -27,4 +27,5 @@ Day 018 - Turtle Module; First approach to Turtle Module. Performs simple exerci
 Day 019 - Turtle Module; Performs simple tasks by learning Turtle Module and OOP. \
 Day 020/021 - Snake Game project; I created a Snake game using Turtle Module and OOP. \
 Day 022 - Pong Game project; I created a Pong game using Turtle Module and OOP. \
-Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle Module and OOP.
+Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle Module and OOP. \
+Day 024 - Files; Learning to work with files.
