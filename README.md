@@ -23,4 +23,10 @@ Day 014 - Higher Lower Game; A game when you need to guess who has more follower
 Day 015 - Coffee Machine project; A program that imitates the workings of a coffee machine. It accepts coins, dispenses coffee and checks supplies of water, milk and coffee.\
 Day 016 - Introduce OOP; Introduction to Object Oriented Programming. Reworking yesterday's project using Object Oriented Programming.\
 Day 017 - Quiz project; Making Quiz game with Object Oriented Programing.\
-Day 018 - Turtle Module; First approach to Turtle Module. Performs simple exercises and gets familiar with the Turtle Module library.
+Day 018 - Turtle Module; First approach to Turtle Module. Performs simple exercises and gets familiar with the Turtle Module library. \
+Day 019 - Turtle Module; Performs simple tasks by learning Turtle Module and OOP. \
+Day 020/021 - Snake Game project; I created a Snake game using Turtle Module and OOP. \
+Day 022 - Pong Game project; I created a Pong game using Turtle Module and OOP. \
+Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle Module and OOP. \
+Day 024 - Files; Learning to work with files. \
+Day 025 - Pandas; Introduction to Pandas. I'm starting to work on .csv files, reading the data and analyzing it.
