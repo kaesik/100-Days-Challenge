@@ -30,4 +30,4 @@ Day 022 - Pong Game project; I created a Pong game using Turtle Module and OOP. 
 Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle Module and OOP. \
 Day 024 - Files; Learning to work with files. \
 Day 025 - Pandas; Introduction to Pandas. I'm starting to work on .csv files, reading the data and analyzing it. \
-Day 026
+Day 026 - 
