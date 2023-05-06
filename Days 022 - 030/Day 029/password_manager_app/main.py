@@ -4,7 +4,7 @@ L_BLUE = "#F1F6F9"
 N_BLUE = "#394867"
 D_BLUE = "#212A3E"
 GRAY = "#9BA4B5"
-FONT = ("Courier", 12, "normal")
+FONT = ("Courier", 12, "bold")
 
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
@@ -14,7 +14,7 @@ def generate_password():
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_password():
-    pass
+
 
 
 # ---------------------------- UI SETUP ------------------------------- #

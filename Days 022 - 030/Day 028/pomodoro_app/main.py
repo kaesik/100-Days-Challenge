@@ -22,6 +22,7 @@ def reset_timer():
     checkmark_label.config(text="")
     reps = 0
 
+
 # ---------------------------- TIMER MECHANISM ------------------------------- #
 def start_timer():
     global reps
