@@ -17,7 +17,6 @@ def save_password():
     pass
 
 
-
 # ---------------------------- UI SETUP ------------------------------- #
 window = tk.Tk()
 window.title("Password Manager 🔒")
