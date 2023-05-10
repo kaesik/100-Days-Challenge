@@ -1,4 +1,7 @@
 import tkinter as tk
+from tkinter import messagebox as msgb
+import random
+import pyperclip
 # ---------------------------- CONSTANTS ------------------------------- #
 L_BLUE = "#F1F6F9"
 N_BLUE = "#394867"
@@ -9,12 +12,46 @@ FONT = ("Courier", 12, "bold")
 
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 def generate_password():
-    pass
+    letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+               'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
+               'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+               'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+    password_input.delete(0, "end")
+
+    password_letters = [random.choice(letters) for _ in range(random.randint(8, 10))]
+    password_symbols = [random.choice(symbols) for _ in range(random.randint(2, 4))]
+    password_numbers = [random.choice(numbers) for _ in range(random.randint(2, 4))]
+    password_lst = password_letters + password_symbols + password_numbers
+    random.shuffle(password_lst)
+
+    password = "".join(password_lst)
+    pyperclip.copy(password)
+    password_input.insert(0, password)
 
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
 def save_password():
-    pass
+    website = website_input.get().capitalize()
+    email = email_user_input.get()
+    password = password_input.get()
+    is_ok = False
+
+    if len(website) == 0 or len(email) == 0 or len(password) == 0:
+        msgb.showwarning(title="Error!", message="Please, don't leave any fields empty!")
+    else:
+        is_ok = msgb.askokcancel(title=website.capitalize(), message=f"Details:\n"
+                                                f" Email: {email}\n"
+                                                f" Password: {password}\n"
+                                                f" Is that correct?")
+
+    if is_ok:
+        with open("data.txt", "a") as data:
+            data.write(f"{website} | {email} | {password}\n")
+            website_input.delete(0, "end")
+            password_input.delete(0, "end")
 
 
 # ---------------------------- UI SETUP ------------------------------- #
