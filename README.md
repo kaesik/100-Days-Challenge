@@ -31,4 +31,4 @@ Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle
 Day 024 - Files; Learning to work with files. \
 Day 025 - Pandas; Introduction to Pandas. I'm starting to work on .csv files, reading the data and analyzing it. \
 Day 026 - NATO Alphabet project; Performs simple exercises in writing one-line code. I continue to work on files and wrote a program that changes words in NATO spelling. \
-
+Day 027 -
