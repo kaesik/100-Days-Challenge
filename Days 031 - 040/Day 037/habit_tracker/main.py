@@ -1,8 +1,9 @@
 import requests as rq
+import os
 from datetime import datetime
 
 USERNAME = "kaestoja"
-TOKEN = "q1w2e3r4t5qqq"
+TOKEN = os.environ.get("TOKEN")
 GRAPH_ID = "graph2"
 
 today = datetime.now().strftime("%Y%m%d")

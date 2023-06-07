@@ -1,4 +1,5 @@
 import requests as rq
+import os
 from twilio.rest import Client
 
 
@@ -30,12 +31,11 @@ Brief: We at Insider Monkey have gone over 821 13F filings that hedge funds and 
 STOCK = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
-STOCK_API_KEY = "L57RF7E5ANXGTS3X"
-NEWS_API_KEY = "27ad8cb46a61410cbfe562c1d596a052"
+STOCK_API_KEY = os.environ.get("STOCK_API_KEY")
+NEWS_API_KEY = os.environ.get("NEWS_API_KEY")
 
-SID = "AC4840665656d8ca24abe7c133d4036e60"
-TOKEN = "c5bacae9f9ffe1f8d4b08d6a91100a48"
-
+SID = os.environ.get("SID")
+TOKEN = os.environ.get("TOKEN")
 
 # ----- VARIABLES ----- #
 parameters_stock = {

@@ -1,9 +1,10 @@
 import requests as rq
+import os
 from twilio.rest import Client
 
-API_KEY = "key"
-SID = "AC4840665656d8ca24abe7c133d4036e60"
-TOKEN = "token"
+API_KEY = os.environ.get("API_KEY")
+SID = os.environ.get("SID")
+TOKEN = os.environ.get("TOKEN")
 MY_LAT = 51.099998
 MY_LNG = 17.033331
 CITY = "Wrocław,pl"
