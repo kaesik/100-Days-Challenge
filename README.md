@@ -33,4 +33,5 @@ Day 025 - Pandas; Introduction to Pandas. I'm starting to work on .csv files, re
 Day 026 - NATO Alphabet project; Performs simple exercises in writing one-line code. I continue to work on files and wrote a program that changes words in NATO spelling. \
 Day 027 - TKinter; I'm learning the basics of tkinter, creating two programs to help with my TRPGs. \
 Day 028 - \
-Day 029 - 
+Day 029 - \
+Day 030
