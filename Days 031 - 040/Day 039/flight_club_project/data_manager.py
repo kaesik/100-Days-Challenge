@@ -18,8 +18,8 @@ class DataManager:
         sheety_data = sheety_get.json()
         return sheety_data
 
-    def put_iata_code(self, code):
-        puts = {"iataCode": code}
-        sheety_put = rq.put(url=self.SHEETY_API, json=puts, headers=self.HEADERS)
+    def put_iata_code(self, code, id):
+        puts = {"price": {"iataCode": code}}
+        sheety_put = rq.put(url=f"{self.SHEETY_API}/{id}", json=puts, headers=self.HEADERS)
         sheety_put.raise_for_status()
 
