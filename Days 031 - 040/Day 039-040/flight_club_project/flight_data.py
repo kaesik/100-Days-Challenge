@@ -46,10 +46,3 @@ class FlightData:
             "arr_date": flight_data[0]["utc_arrival"][:10],
         }
         return flight_data
-
-
-
-
-
-# 4 The SMS should include the departure airport IATA code, destination airport IATA code, departure city,
-# destination city, flight price and flight dates. e.g.

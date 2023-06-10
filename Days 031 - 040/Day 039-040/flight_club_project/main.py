@@ -6,6 +6,7 @@ data_man = DataManager()
 data_fli = FlightData()
 noti_man = NotificationManager()
 
+
 def upload_iata():
     for i in range(0, len(data_man.get_data()["prices"])):
         city = data_man.get_data()["prices"][i]["city"]
@@ -21,20 +22,27 @@ def get_flights(iata):
         price = int(data_man.get_data()["prices"][a]["lowestPrice"])
         if actual_iata == iata:
             try:
-                data = data_fli.get_flight_data(iata, price)
-                message = noti_man.create_msg(data)
-                print(message)
+                flight_data = data_fli.get_flight_data(iata, price)
+                for b in range(0, len(data_man.get_users_data()["users"])):
+                    first = data_man.get_users_data()["users"][b]["firstName"]
+                    last = data_man.get_users_data()["users"][b]["lastName"]
+                    email = data_man.get_users_data()["users"][b]["email"]
+                    message = noti_man.create_msg(flight_data, first, last)
+                    noti_man.send_email(message, email)
             except IndexError:
                 print(f"There is not ticket for {actual_iata}.")
 
+
+register = input("Do you want register? y/n\n").lower()
+if register == "y":
+    data_man.register()
+else:
+    pass
 
 for c in range(0, len(data_man.get_data()["prices"])):
     iata = data_man.get_data()["prices"][c]["iataCode"]
     get_flights(iata)
 
-# print(data_fli.get_flight_data("PAR", 40))
-
-# print(data_man.get_data()["prices"][0])
 
 # This file will need to use the DataManager,FlightSearch, FlightData,
 # NotificationManager classes to achieve the program requirements.
@@ -51,4 +59,4 @@ for c in range(0, len(data_man.get_data()["prices"])):
 # the Twilio API.✅
 #
 # 4 The SMS should include the departure airport IATA code, destination airport IATA code, departure city,
-# destination city, flight price and flight dates. e.g.
+# destination city, flight price and flight dates. e.g.✅
