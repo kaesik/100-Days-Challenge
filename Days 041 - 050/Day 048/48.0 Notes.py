@@ -11,7 +11,10 @@ driver.get("https://www.python.org/")
 # search = driver.find_element(By.NAME, "q")
 # print(search.get_attribute("placeholder"))
 
-logo = driver.find_element(By.CLASS_NAME, "python-logo")
-print(logo.size)
+# logo = driver.find_element(By.CLASS_NAME, "python-logo")
+# print(logo.size)
+
+link = driver.find_element(By.CSS_SELECTOR, ".documentation-widget a")
+print(link.text)
 
 driver.quit()
