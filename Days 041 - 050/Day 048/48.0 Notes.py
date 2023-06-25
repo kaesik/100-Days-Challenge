@@ -8,13 +8,17 @@ driver = webdriver.Chrome()
 # print(price.text)
 
 driver.get("https://www.python.org/")
+
 # search = driver.find_element(By.NAME, "q")
 # print(search.get_attribute("placeholder"))
 
 # logo = driver.find_element(By.CLASS_NAME, "python-logo")
 # print(logo.size)
 
-link = driver.find_element(By.CSS_SELECTOR, ".documentation-widget a")
-print(link.text)
+# link = driver.find_element(By.CSS_SELECTOR, ".documentation-widget a")
+# print(link.text)
+
+# bug = driver.find_element(By.XPATH, '//*[@id="site-map"]/div[2]/div/ul/li[3]/a')
+# print(bug.text)
 
 driver.quit()
