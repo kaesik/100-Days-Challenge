@@ -9,3 +9,4 @@ SITE = os.environ.get("SITE")
 driver = webdriver.Chrome()
 driver.get(SITE)
 driver.maximize_window()
+
