@@ -1,38 +1,40 @@
-# 100-Days-Challange
-100 day challenge to learn python
+# Python-100-Days-of-Code
 
-This is simple my road of learning Python. Nothing interesting for someone that already know Python.\
-However, if you are interested in my way of learning Python you can browse this repository.\
-All the solutions to the tasks were conceived and written by me.\
-I avoid rewriting the solutions.
+ - TODO-1: rework main.py files
+ - TODO-2: make separate folders for projects
+ - TODO-3: make readme *✨prettier✨*
 
-Day 001 - Variables; Project that generate the name of the Band\
-Day 002 - Data types; Project that calculate tips and due payment\
-Day 003 - Logical operators; Project "Treasure Island" is a short adventure where you make choices\
-Day 004 - Randomisation; Project is a game "Rock Paper Scissors"\
-Day 005 - For loops; Project that generates a random password according to given assumptions\
-Day 006 - Reeborg; Playing with https://reeborg.ca/ \
-Day 007 - The Hangman project; A simple game of guessing the letters in a word\
-Day 008 - Caesar Cipher project; A program that encodes typed words according to the assumptions of the Caesar Cipher\
-Day 009 - Secret Auction project; The program used to play a secret auction, allows you to bid between any number of people\
-Day 010 - Calculator project; A simple calculator that allows you to add, subtract, multiply and divide\
-Day 011 - Blackjack project; A simple program that allows you to play a simplified version of blackjack\
-Day 012 - Number Guessing project; A game in which you have to guess a number between 1 and 100\
-Day 013 - Debugging; Performs some small debugging exercises\
-Day 014 - Higher Lower Game; A game when you need to guess who has more followers on Instagram!\
-Day 015 - Coffee Machine project; A program that imitates the workings of a coffee machine. It accepts coins, dispenses coffee and checks supplies of water, milk and coffee.\
-Day 016 - Introduce OOP; Introduction to Object Oriented Programming. Reworking yesterday's project using Object Oriented Programming.\
-Day 017 - Quiz project; Making Quiz game with Object Oriented Programing.\
-Day 018 - Turtle Module; First approach to Turtle Module. Performs simple exercises and gets familiar with the Turtle Module library. \
-Day 019 - Turtle Module; Performs simple tasks by learning Turtle Module and OOP. \
-Day 020/021 - Snake Game project; I created a Snake game using Turtle Module and OOP. \
-Day 022 - Pong Game project; I created a Pong game using Turtle Module and OOP. \
-Day 023 - Turtle Crossing project; I created a Turtle Crossing game using Turtle Module and OOP. \
-Day 024 - Files; Learning to work with files. \
-Day 025 - Pandas; Introduction to Pandas. I'm starting to work on .csv files, reading the data and analyzing it. \
-Day 026 - NATO Alphabet project; Performs simple exercises in writing one-line code. I continue to work on files and wrote a program that changes words in NATO spelling. \
-Day 027 - TKinter; I'm learning the basics of tkinter, creating two programs to help with my TRPGs. \
-Day 028 - \
-Day 029 - \
-Day 030 - \
-Day 031 -
+## Beginner; Days 1-14
+### Python language fundamentals
+
+| Day | Project | Progress | Link |
+|-|-|-|-|
+| 01 | Band Name Generator | I'm learning about variables and imputs | [Repo]() |
+| 02 | Tip Calculator | I'm learning about data types | [Repo]() |
+| 03 | Treasure Island | I'm learning about logical operators and how to use them  | [Repo]() |
+| 04 | Rock Paper Scissors | I'm learning about randomization, first accession to 'random' library | [Repo]() |
+| 05 | Random Password Generator | I'm learning about loops | [Repo]() |
+| 06 | 2D Maze Solver | I'm playing with Reeborg's Word using the knowledge I've acquired | [Reeborg's World](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Maze&url=worlds%2Ftutorial_en%2Fmaze1.json) |
+| 07 | Hangman | I'm learning about imports modules (popraw main.py) | [Repo]() |
+| 08 | Caesar Cipher | I'm learning about positional arguments and keyword arguments, first attempts with functions | [Repo]() |
+| 09 | Silent Auction | More functions, I'm learning about nesting | [Repo]() |
+| 10 | Calculator | I'm learning about dictionaries | [Repo]() |
+| 11 | Blackjack | I'm using the knowledge I have acquired to create a simplified version of Blackjack with ASCII graphics  | [Repo]() |
+| 12 | Number Guessing Game | I'm using the knowledge I have gained by creating a game of guessing numbers from 1 to 100 | [Repo]() |
+| 13 | Debugging | Performs some small debugging exercises | [Repo]()|
+| 14 | Higher Lower Game | I use the knowledge I have acquired by creating a game to guess who has more followers on Instagram | [Repo]() |
+
+##  Intermediate; Days 15-31
+### OOP, More Libraries (Turtle, Pandas, TKinter, Math, Time)
+| Day | Project | Progress | Link |
+|-|-|-|-|
+|15| x | x | [Repo]() |
+|16| x | x | [Repo]() |
+|17| x | x | [Repo]() |
+|18| x | x | [Repo]() |
+|19| x | x | [Repo]() |
+|20| x | x | [Repo]() |
+|21| x | x | [Repo]() |
+|30| x | x | [Repo]() |
+|31| x | x | [Repo]() |
+
