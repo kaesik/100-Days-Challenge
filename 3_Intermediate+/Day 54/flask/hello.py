@@ -1,7 +1,7 @@
 # terminal:
 #   set FLASK_APP=hello.py
 #   $env:FLASK_APP = "C:\Users\kamil\PycharmProjects\100_Days_of_Code\3_Intermediate+\Day 54\flask\hello.py"
-#   flask run
+#   higher_lower run
 
 from flask import Flask
 app = Flask(__name__)
