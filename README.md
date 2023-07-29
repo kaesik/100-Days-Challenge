@@ -29,35 +29,35 @@
 ### OOP, More Libraries (Turtle, Pandas, TKinter, Math, Time) 👨‍💻
 | Day | Project | Progress | Link |
 |-|-|-|-|
-|15| Coffee Machine | x | [Repo]() |
-|16| Coffee Machine OOP | x | [Repo]() |
-|17| Quiz OOP | x | [Repo]() |
-|18| Hirst Painting | x | [Repo]() |
-|19| Turtle Race | x | [Repo]() |
-|20-21| Snake Game | x | [Repo]() |
-|22| Pong Game | x | [Repo]() |
-|23| Turtle Crossing | x | [Repo]() |
-|24| Avatar Mails | x | [Repo]() |
-|25| Guess the State | x | [Repo]() |
-|26| NATO Alphabet | x | [Repo]() |
-|27| Mile to Km Converter | x | [Repo]() |
-|28| Pomodoro Timer App | x | [Repo]() |
-|29| Password Generator v2 | x | [Repo]() |
-|30| Exercises | x | [Repo]() |
-|31| Flash Card App | x | [Repo]() |
+|15| Coffee Machine | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2015/coffe_machine) |
+|16| Coffee Machine OOP | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2016/oop_coffe_machine) |
+|17| Quiz OOP | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2017/oop_quiz) |
+|18| Hirst Painting | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2018/hirst_painting) |
+|19| Turtle Race | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2019/turtle_race) |
+|20-21| Snake Game | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2020-21/snake_game) |
+|22| Pong Game | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2022/pong_game) |
+|23| Turtle Crossing | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2023/turtle_crossing_game) |
+|24| Avatar Mails | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2024/avatar_mails) |
+|25| Guess the State | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2025/us_states_game) |
+|26| NATO Alphabet | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2026/nato_alphabet) |
+|27| Mile to Km Converter | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2027/mile_to_km_converter) |
+|28| Pomodoro Timer App | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2028/pomodoro_app) |
+|29| Password Generator v2 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2029/password_manager_app) |
+|30| Exercises | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2030/Exercises) |
+|31| Flash Card App | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/2_Intermediate/Day%2031/flash_card) |
 
 ##  Intermediate+ 👨; Days 32-58
 ### API's 🔗
 | Day | Project | Progress | Link |
 |-|-|-|-|
-|32| x | x | [Repo]() |
-|33| x | x | [Repo]() |
-|34| x | x | [Repo]() |
-|35| x | x | [Repo]() |
-|36| x | x | [Repo]() |
-|37| x | x | [Repo]() |
-|38| x | x | [Repo]() |
-|39-40| x | x | [Repo]() |
+|32| Birthday Wisher | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2032/birthday_wisher) |
+|33| ISS Over Head | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2033/iss_over_head) |
+|34| Quizzler | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2034/quizzler) |
+|35| Rain Alert | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2035/rain_alert) |
+|36| Stock News | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2036/stock_news) |
+|37| Habit Tracker | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2037/habit_tracker) |
+|38| Exercise Tracker | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2038/exercise_tracker) |
+|39-40| Flight Club | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2039-40/flight_club) |
 
 ###  HTML, CSS and Web Scrapping 💻
 | Day | Project | Progress | Link |
@@ -66,27 +66,27 @@
 |42| x | x | [Repo]() |
 |43| x | x | [Repo]() |
 |44| x | x | [Repo]() |
-|45| x | x | [Repo]() |
-|46| x | x | [Repo]() |
-|47| x | x | [Repo]() |
-|48| x | x | [Repo]() |
-|49| x | x | [Repo]() |
-|50| x | x | [Repo]() |
-|51| x | x | [Repo]() |
-|52| x | x | [Repo]() |
-|53| x | x | [Repo]() |
+|45| Scrap Movie | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2045/scrap_movie) |
+|46| Time Machine | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2046/time_maschine) |
+|47| Price Tracker | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2047/price_tracker) |
+|48| Cookie Clicker Bot 🤖 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2048/cookie_clicker_bot) |
+|49| Job Application Bot 🤖 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2049/job_application_bot) |
+|50| Auto Tinder Swiper | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2050/auto_tinder_swiper) |
+|51| Twitter Complain Bot 🤖 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2051/twitter_complain_bot) |
+|52| Instagram Follower Bot 🤖 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2052/instagram_follower_bot) |
+|53| Data Entry Job Automation | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2053/data_entry_job_automation) |
 
 ###  Web Development with Flask 🌶️
 | Day | Project | Progress | Link |
 |-|-|-|-|
-|54| x | x | [Repo]() |
-|55| x | x | [Repo]() |
-|56| x | x | [Repo]() |
-|57| x | x | [Repo]() |
-|58| x | x | [Repo]() |
+|54| Flask Intro | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2054/flask_intro) |
+|55| Higher Lower | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2055/higher_lower) |
+|56| My Personal Site | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2056/my_personal_site) |
+|57| Blog with Jinja 🥷 | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2057/blog_templating) |
+|58| Tindog with Bootstrap 🅱️ | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/3_Intermediate%2B/Day%2058/tindog) |
 
 ##  Advanced 👴; Days 32-58
 ### dunno yet... 🤔
 | Day | Project | Progress | Link |
 |-|-|-|-|
-|32| x | x | [Repo]() |
+|59| x | x | [Repo]() |
