@@ -2,7 +2,7 @@ from flask import Flask, render_template
 import requests as rq
 app = Flask(__name__)
 
-blog_url = "https://api.npoint.io/5880f2a78644ec00a63b"
+blog_url = "https://api.npoint.io/51161e5bb72fb8a35b59"
 response = rq.get(blog_url).json()
 
 @app.route('/')
