@@ -89,4 +89,5 @@
 ### dunno yet... 🤔
 | Day | Project | Progress | Link |
 |-|-|-|-|
-|59| x | x | [Repo]() |
+|59| Upgraded Blog | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/4_Advenced/Day%2059/upgraded_blog) |
+|60| Upgraded Blog with Forms | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/4_Advenced/Day%2060/upgraded_blog_v2) |
