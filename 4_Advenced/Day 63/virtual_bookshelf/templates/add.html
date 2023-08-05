@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Book</title>
+  </head>
+  <body>
+    <form action="{{ url_for('add') }}" method="POST">
+      <label for="name">Book Title</label>
+      <input class="form-control" id="title" type="title" placeholder="Book Title" name="title" required />
+      <label for="author">Book Author</label>
+      <input class="form-control" id="author" type="author" placeholder="Book Author" name="author" required />
+      <label for="rating">Rating</label>
+      <input  class="form-control" id="rating" type="rating" placeholder="Rating" name="rating" required />
+      <button  class="btn btn-primary text-uppercase" id="submitButton" type="submit">Add Book</button>
+    </form>
+    <a href="{{ url_for('home') }}">Go Back</a>
+  </body>
+</html>
