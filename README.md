@@ -92,3 +92,8 @@
 |59| Upgraded Blog | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/4_Advenced/Day%2059/upgraded_blog) |
 |60| Upgraded Blog with Forms | x | [Repo](https://github.com/kaesik/100-Days-Challenge/tree/main/4_Advenced/Day%2060/upgraded_blog_v2) |
 |61| x | x | [Repo]() |
+|62| x | x | [Repo]() |
+|63| x | x | [Repo]() |
+|64| x | x | [Repo]() |
+|65| x | x | [Repo]() |
+|66| x | x | [Canva](https://www.canva.com/design/DAFrEd5_i0Q/xEKyUOtfqNJO-ozccNRw0w/view?utm_content=DAFrEd5_i0Q&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) |
