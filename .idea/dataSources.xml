@@ -37,5 +37,17 @@
         </library>
       </libraries>
     </data-source>
+    <data-source source="LOCAL" name="posts" uuid="8ef20c70-d639-4dda-b2f0-b4056fcb8ef7">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\kamil\PycharmProjects\100_Days_of_Code\4_Advenced\Day 67\restful_blog_v3\instance\posts.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.40.1/org/xerial/sqlite-jdbc/3.40.1.0/sqlite-jdbc-3.40.1.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>
