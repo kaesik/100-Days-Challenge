@@ -94,7 +94,6 @@ def add():
 
 @app.route("/select/")
 def select():
-    form = EditMovieForm()
     movie_id = request.args.get("id")
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?language=en-US"
     response = requests.get(url, headers=headers)

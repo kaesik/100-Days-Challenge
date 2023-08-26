@@ -10,6 +10,7 @@ from datetime import date
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+ckeditor = CKEditor(app)
 Bootstrap5(app)
 
 # CONNECT TO DB
@@ -36,13 +37,8 @@ class CreatePostForm(FlaskForm):
     body = CKEditorField(label="Blog Content", validators=[DataRequired()])
     submit = SubmitField(label="Submit Post")
 
-class EditPostForm(FlaskForm):
-    pass
-
-
 with app.app_context():
     db.create_all()
-
 
 @app.route('/')
 def get_all_posts():
@@ -78,13 +74,29 @@ def add_new_post():
     return render_template("make-post.html", form=form)
 
 # TODO: edit_post() to change an existing blog post
-def edit_post():
-    pass
+@app.route('/edit/<post_id>', methods=["GET", "POST"])
+def edit_post(post_id):
+    post = db.get_or_404(BlogPost, post_id)
+    edit_form = CreatePostForm(
+        title=post.title,
+        subtitle=post.subtitle,
+        img_url=post.img_url,
+        author=post.author,
+        body=post.body
+    )
+    if edit_form.validate_on_submit():
+        post.title = edit_form.title.data
+        post.subtitle = edit_form.subtitle.data
+        post.img_url = edit_form.img_url.data
+        post.author = edit_form.author.data
+        post.body = edit_form.body.data
+        db.session.commit()
+        return redirect(url_for("show_post", post_id=post.id))
+    return render_template("make-post.html", form=edit_form, is_edit=True)
 
 # TO✅DO: delete_post() to remove a blog post from the database
-@app.route('/delete/', methods=["GET", "POST"])
-def delete_post():
-    post_id = request.args.get("id")
+@app.route('/delete/<int:post_id>', methods=["GET", "POST"])
+def delete_post(post_id):
     post = db.get_or_404(BlogPost, post_id)
     db.session.delete(post)
     db.session.commit()
