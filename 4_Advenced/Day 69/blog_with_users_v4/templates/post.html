@@ -38,6 +38,9 @@
 
         <!-- Comments Area -->
         <!-- TODO: Add a CKEditor for commenting below -->
+            {{ ckeditor.load() }}
+            {{ ckeditor.config(name='comment_text') }}
+{#            {{ render_form(comment_form, novalidate=True, button_map={"submit": "primary"}) }}#}
         <div class="comment">
           <!-- TODO: Show all the comments on a post -->
           <ul class="commentList">
